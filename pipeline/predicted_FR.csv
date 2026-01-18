@@ -1,0 +1,256 @@
+number,ProjectID,RequirementText,class,NFR,F,A,FT,L,LF,MN,O,PE,PO,SC,SE,US,label,pred_prob,pred_label
+9,1,The system shall have a MDI form that allows for the viewing of the graph and the data table.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934529,1
+10,1,The system shall display Events in a vertical table by time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930454,1
+11,1,The system shall display the Events in a graph by time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9925932,1
+12,1,The system shall display Events or Activities.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99238867,1
+13,1, The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99368215,1
+14,1,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923592,1
+15,1,The table side of the display shall be split into 2 regions: sequential and temporal.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.993075,1
+16,1,The top 1/4 of the table will hold events that are to occur sequentially.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9904841,1
+17,1,The bottom 3/4 of the table will hold events that occur according to its relevance to current time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99087733,1
+18,1,The system shall color code events according to their variance from current time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99316615,1
+19,1,The system shall display data from the Sync Matrix 1.0 and Exercise Management Tool 1.0 applications,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99233186,1
+20,1,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9932766,1
+21,1,The system shall allow modification of the display.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99300015,1
+22,1,The system shall offer a display of all the Events in the exercise.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9940392,1
+23,1,The system shall filter data by: Venues and Key Events.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99236166,1
+24,1,The system shall allow a user to define the time segments,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934069,1
+25,1,The system shall display the local and exercise time in separate clocks,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924494,1
+26,1,The system shall offer the ability to pause and resume the refresh of data.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99343264,1
+27,1,The system shall provide charts for the Activity or Event actual versus assumed time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9931415,1
+28,1,The system shall provide a history report of changes made to the Activity or Event data,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9932461,1
+58,2,The system shall allow a real estate agent to query MLS information,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9919891,1
+59,2,The user shall be able to get driving directions to a selected property,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99321705,1
+60,2,The user shall be able to download appointments and contact information for clients,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9927738,1
+61,2,The system shall display clear property images in the search results,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.993986,1
+62,2,The system shall update or create new property listings in the MLS,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99316,1
+63,2,Realtor shall be able to generate a CMA report based on property criteria,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99259806,1
+64,2,The system shall be able to call the seller or buyer to schedule an appointment,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99197924,1
+65,2,The realtor shall be notified of new client appointments after automatic synchronization with office system,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9900872,1
+66,2,The realtor shall be able to retrieve a map showing property locations for a specified area,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99245363,1
+67,2,The system shall notify the realtor when a seller or buyer responds to an appointment request,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99264044,1
+68,2,The product shall allow the user to save the property search results.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99284935,1
+102,3,A cohort shall be associated to one Program of Study offered by the department.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99077964,1
+103,3,Program Administrators and Nursing Staff Members shall be able to add a listing of students to a cohort.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99265563,1
+104,3,Program Administrators and Nursing Staff Members shall be able to add a single student to a cohort,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9929807,1
+105,3,Students added to a cohort shall be eligible for the cohort’s Program of Study.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98800826,1
+106,3,Program Administrators and Nursing Staff Members shall be able to specify the preferred sequence of classes for a given cohort.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9929015,1
+107,3, For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99386275,1
+108,3, For each class within a sequence for a cohort  Program Administrators and Nursing Staff Members shall be able to specify which quarter that class will be offered.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99386275,1
+109,3,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928945,1
+110,3,Program Administrators and Nursing Staff Members shall be able to add clinical classes or sections to a sequence of classes,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99293584,1
+111,3, Program Administrators and Nursing Staff Members shall be able to add a new cohort to the system  identified by start month and year.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99319893,1
+112,3,Program Administrators and Nursing Staff Members shall be able to add new classes for the nursing department into the system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9919572,1
+113,3,A class shall be either a non-clinical class or a clinical class.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9912545,1
+114,3, A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99182254,1
+115,3, A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99226165,1
+116,3,Program Administrators/Nursing Staff Members shall be able to create a new Program of Study.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922591,1
+117,3,A Program of Study shall consist of a program name and listing of required classes (both clinical and non-clinical) that must be completed.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98821133,1
+118,3,Program Administrators and Nursing Staff Members shall have the ability to specify which classes are required for a Program of Study,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99281013,1
+119,3,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members’ planning purposes.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9910472,1
+120,3, The report of needed classes shall include (but not be limited to) classes to be offered  number of sections needed  number of labs needed  and room types needed.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99183816,1
+121,3,Classes for a given cohort shall not conflict with regards to the time and day that they are offered.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98707503,1
+122,3,Program Administrators and Nursing Staff Members shall be able to add a new clinical site into the system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9908688,1
+123,3, Clinical site information shall include (but not be limited to) the name of the site  contact person  and contact information.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99105924,1
+124,3,Program Administrators and Nursing Staff Members shall be able to add a new clinical lab section for an existing clinical class into the System.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9915657,1
+125,3, A clinical lab section shall include the clinical site name  the class  instructor  day and time of the lab.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99176747,1
+126,3,Program Administrators and Nursing Staff Members shall be able to add a student who has registered for a clinical class to a clinical lab section for that class.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926085,1
+127,3,The system shall allow a Program Administrator or Nursing staff member to remove a student from a clinical lab section.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923316,1
+128,3,The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928854,1
+129,3,Program Administrators/Nursing Staff Members shall be able to cancel a clinical lab section only if there are no students registered for that clinical lab section.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923114,1
+130,3,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.991117,1
+131,3, A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928839,1
+132,3, The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99319685,1
+133,3, The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9910362,1
+134,3, The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923344,1
+135,3, The system shall be able to display a printable summary for individual nursing students  which will include (but not be limited to) student name  student ID  admission date  classes  credits  GPA  and the cohort that the student is enrolled in.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99333125,1
+136,3,The system shall be able to display a printable summary of the system log.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9894132,1
+137,3, The system shall contain contact information (e-mail and phone number) for all people relevant to the system  including (but not limited to) staff members  students  lecture instructors  clinical lab instructors  and clinical site administrators.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9910947,1
+138,3,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9906459,1
+139,3, The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99186194,1
+140,3, The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916853,1
+141,3, The system will notify affected parties when changes occur affecting classes  including but not limited to class cancellations  class section detail changes  and changes to class offerings for a given quarter.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923855,1
+142,3, The system will notify affected parties when changes occur affecting cohorts  including but not limited to changes to the sequence for a cohort’s program of study and changes to a given week’s schedule (lab cancelled this week due to instructor illness).,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9892368,1
+143,3, The system will notify affected parties when changes occur affecting specific students  including but not limited to changing a student’s status from full time to part time and moving a student to a different clinical section.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99196845,1
+144,3, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to cohorts  including cohort identifier  program of study  preferred sequence of classes and quarters that a cohort will be taking specific classes.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99323153,1
+145,3, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Program of Study within the Nursing Department  including the Program of study name  and required classes for that Program of Study.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9919328,1
+146,3, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Site  including the clinical site name  site contact person  contact information  and address.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9914386,1
+147,3, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Clinical Lab Section  including the clinical site name  the department/section for the lab  the class  instructor  day and time of lab  and contact information.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9918681,1
+148,3, Program Administrators/Nursing Staff Members shall have the ability to modify information relating to a Nursing Student  including student ID  student name  phone number  e-mail  status (full time or part time)  and program of study.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9921704,1
+179,4,The Disputes System must be accessible by both internal and external users.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99293184,1
+180,4,The Disputes System must prevent users from accessing any dispute cases that do not belong to their cardholder base.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99197984,1
+181,4,The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99098563,1
+182,4,The Disputes System must provide different levels of access with regard to disputes case initiation and follow-up actions.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99251914,1
+183,4,The Disputes System shall provide view access capability for authorized users of the application.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99167,1
+184,4,The Disputes System shall provide update access capability for authorized users of the application.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9921103,1
+185,4,The Disputes System must allow the users to select disputable transactions (based on the age of the transaction) from a user interface and initiate a dispute (ticket retrieval request or chargeback notification) on the selected transaction.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99188215,1
+186,4,The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9906282,1
+187,4,The Disputes System will provide the user the ability to create or initiate a ticket retrieval request.   As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.  The ticket retrieval request is a document that is sent to merchant inquiring the validity of a transaction.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916352,1
+188,4,The Disputes System must allow the user to create three unique types of ticket retrieval requests.  The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio. A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9879615,1
+189,4,The Disputes System must prevent external users from requesting original receipts. Requests for original receipts are restricted to internal users.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.991764,1
+190,4, The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99250925,1
+191,4,The Disputes System shall allow the user to create or initiate a chargeback request.  The system must prompt the user to enter the required information to initiate a chargeback request. The chargeback request results in a printed chargeback notification that is sent to merchant indicating that their account will be charged back if no proof is provided that the disputed transaction is valid.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99107915,1
+192,4, The Disputes System must provide a confirmation to the user upon the creation of a chargeback request. The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9914733,1
+193,4,The Disputes System shall prevent the creation of duplicate dispute requests 100% of the time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99211663,1
+194,4, The Disputes System shall accurately provide a list of possible reason codes for a given transaction.  The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9923273,1
+195,4,The Disputes System must provide the ability to view existing dispute cases.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9915639,1
+196,4, The Disputes System must provide Search functionality.  The search method must include the ability to search by (1) the dispute case number  (2) the merchant account number  (3) the cardmember account number and (4) the issuer number.  In addition to the above criteria  the search functionality must further allow the user to limit the results of the search by a date range  the type of dispute (ticket retrieval request or chargeback notification)  the case status (open  closed or all) and the dispute reason code.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98726153,1
+197,4,A list of all disputes cases that meet the entered search criteria must be provided to the user.  The list of cases must differentiate the type and/or status of the case by color -coding the line item in the list.  For example all open cases will be yellow and all closed cases will be gray.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916534,1
+198,4,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926246,1
+199,4,The Dispute System shall provide the users with the ability to follow up on a dispute case via follow-up actions.  The list of available follow up actions for a given dispute case must be filtered by the status of the case and the access level of the user.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9925132,1
+200,4, The Disputes System shall record the name of the user and the date for any activity that creates or modifies the disputes case in the system.  A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98220944,1
+201,4, For any systematic (non-user initiated) action that occurs on a case such as the disputes aging process  a case activity will be generated.  Upon the next logon the user that initiated the dispute case must be notified that a systematic action has occurred on the dispute case.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9888565,1
+202,4,All letter requests must be formatted according to guidelines specified by the Print Letter Utility system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99285054,1
+203,4,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.97541976,1
+241,5, The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930782,1
+242,5, The vehicle data shall include vehicle year  make  and model,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99180615,1
+243,5, The vehicle location shall include street address  city  state  and zipcode,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9921908,1
+244,5, The system shall resolve the zipcode for the street address  city  and state if zipcode is unknown.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.992934,1
+245,5,The search radius shall be between 1 and 30 miles,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.97913235,1
+246,5,The system shall locate the preferred repair facility with the highest ratings for the input criteria,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924229,1
+247,5,The adjuster shall enter the preferred repair facility on the estimate assignment.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9911384,1
+248,5,The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99092007,1
+249,5,The preferred repair facility shall be returned to the user.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99181503,1
+250,5,The system shall return a list of repair facilities within the radius if the preferred repair facility cannot be determined.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99084127,1
+251,5,The estimator shall search for available recycled parts using damaged vehicle parts information.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99194664,1
+252,5,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99100095,1
+253,5,The system shall search for available recycled parts for the supplied vehicle parts and suppliers.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99207544,1
+254,5,The estimator shall search by zipcode with a radius of 30 miles if no parts are found for the preferred parts suppliers,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9909253,1
+255,5,The system shall retain the available recycled parts and suppliers returned from the search.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934134,1
+256,5,The available recycled parts information and their suppliers shall be returned to the user.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9927523,1
+257,5,The estimator shall apply selected recycled parts to the collision estimate.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99332374,1
+258,5,The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99230206,1
+259,5,The adjuster shall review the collision estimate.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99289167,1
+260,5,The adjuster shall request a recycled parts audit of the collision estimate.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9925349,1
+261,5,The recycled parts search results provided to the estimator shall be retrieved by the system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99276674,1
+262,5,The system shall generate an audit report based on the available recycled parts and the collision estimate.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9932904,1
+263,5,The audit report shall include the total number of recycled parts used in the estimate.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9907086,1
+264,5,The audit report shall include the number of available recycled parts from the original search results.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99249345,1
+265,5, The audit report shall include the percentage of available recycled parts used in the estimate ,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926676,1
+266,5,The audit report shall include the total score of the audit which sums the indivual line items.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928838,1
+267,5,The audit report shall be displayed to the user.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926494,1
+268,5,The audit report shall be available to other adjusters at later points in time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98801094,1
+269,5,The user shall select to view the preferred repair facility ratings.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99261135,1
+270,5,The current repair facility ratings shall be displayed to the user.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99330705,1
+271,5,The system will display a blank set of ratings if there are not ratings yet defined.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99388146,1
+272,5,The user shall enter new ratings based on the audit report,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99379456,1
+273,5,The ratings shall be from a scale of 1-10,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922766,1
+274,5,The ratings shall include categories for attempted use of recycled parts and actual use of recycled parts,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99209714,1
+275,5,The user shall select to save the preferred repair facility ratings.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99246866,1
+276,5,The preferred repair facility ratings shall be saved by the system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99349326,1
+324,6,The product shall record meeting entries.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9933309,1
+325,6,The product will notify employees of meeting invitations.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99070144,1
+326,6,The product shall have the ability to send meeting reminders to employees.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9920415,1
+327,6,The product shall assign the organizers contact information to each meeting they create.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99292976,1
+328,6,The product will record meeting acknowledgements.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928203,1
+329,6,The product shall store new conference rooms.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99376845,1
+330,6,The product shall update existing conference rooms.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99310255,1
+331,6,The product will be able to delete conference rooms.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924413,1
+332,6,The product shall be able to store new room equipment.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99312145,1
+333,6,The product will update existing room equipment.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9937692,1
+334,6,The product shall be able to delete room equipment.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.992671,1
+335,6,The product shall allow an organizer to invite other employees to meetings.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9909672,1
+336,6, Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.988521,1
+337,6,The product shall record the transportation status of equipment reserved.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9933913,1
+338,6,The product shall display a map of the company building showing conference room locations.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99165535,1
+339,6,The product shall record updated meeting agendas.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9914022,1
+340,6,The product shall send a meeting confirmation to the meeting organizer.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928163,1
+341,6,The product shall display room equipment according to search parameters.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9935666,1
+342,6,The product shall display conference rooms according to search parameters.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99248827,1
+343,6,The product shall record different meeting types.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99333775,1
+344,6,The product shall record all the equipment that has been reserved.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930796,1
+345,6,The product shall notify building personnel of equipment transport requests.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922003,1
+346,6,The product will allow priviledged users to view meeting schedules in multiple reporting views.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99293023,1
+347,6,The product shall be able to send meeting notifications via different kinds of end-user specified methods.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924205,1
+348,6,The product shall have a customizable Look and Feel.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9933426,1
+350,6,The product will display an available status for unreserved conference rooms.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99313265,1
+359,7,The System shall allow generation of Inventory Quantity Adjustment documents on demand.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9920894,1
+360,7,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934416,1
+361,7,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9905194,1
+362,7, The System shall allow entering  storing and modifying product formulas.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9936818,1
+363,7, Product formulas shall allow use of semi-products  which have own formulas.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9932074,1
+364,7,Product formula ingredients shall allow defining substitutionary ingredients.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9927706,1
+365,7,Product formula substitutionary ingredients shall be entered automatically by the PFE subsystem.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934888,1
+366,7,Formula substitutionary ingredients shall be kept in persisted order,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.992819,1
+367,7, Product shall allow entering  storing and modifying product menus used by POS terminals.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9921967,1
+368,7,PME Subsystem shall allow building product menus based on the list of products kept in the accounting system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.992721,1
+369,7,PME Subsystem shall allow keeping submenus within menus and products within submenus in a managed and persisted order.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9932487,1
+370,7,PME Subsystem shall allow for a product to exist in more than one submenu,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99308276,1
+371,7,The RMS System shall have Windows XP look and feel and use GUI futures making its use intuitive.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.5052792,1
+372,7,The System shall generate Inventory Quantity Adjustment document based on product daily sales data and product formulas.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99291235,1
+373,7,The System shall generate Inventory Quantity Adjustment document automatically when daily Product Sales data is available.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934396,1
+426,8,Only registered customers can purchase streaming movies.,SE,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0.7043699,1
+447,8, The website will allow customers to search for movies by title  actor  or director.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98899406,1
+448,8, viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922151,1
+449,8, Website shall request  and authorize credit card payment before allowing a user to stream a movie.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930478,1
+450,8, shall be able to stream purchased movie via Windows Media Player  for up to 2 days aftere purchase date.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98498017,1
+451,8,Website shall allow customers to browse movies by categories entered in by izogn administrator.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928116,1
+452,8,Website shall allow customers to view reviews of selected movies by other customers.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9920684,1
+453,8,Website shall allow customers to add their own movie review for a selected movie.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922861,1
+454,8,Website shall allow the Izogn administrator to approve a review posted by a customer.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99204683,1
+455,8,System will allow customers to pay for a streaming movie with a pre-paid card.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9929671,1
+456,8, Website shall allow customers to purchase pre-paid cards of $5  $10  or $20 value either by credit card or mail-in payment option.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9904145,1
+457,8, System shall automatically update the main page of the website every Friday  and show the 4 latest movies that have been added to the website.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9825974,1
+458,8,System shall allow users to update their billing and contact information via the “My Account” section of the website.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9919463,1
+459,8, Pre-paid cards shall be distributed via email  or via a printed paper card.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98551095,1
+460,8,Only registered customers can purchase streaming movies.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.7043699,1
+461,8, Movies can only be streamed if the customer has purchased a movie  and is within the 2-day time period to stream the movie.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.97885305,1
+462,8,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916773,1
+463,8, All streaming movie sales will be logged in the database  and accessible by the administrator.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99309725,1
+464,8, All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9860342,1
+465,8, Daily usage statistics should be logged  and accessible by the administrator.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.98919034,1
+466,8,The owner shall have free access to all of the streaming movies.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.991366,1
+475,9,The vendor will verify the invalid lead.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926467,1
+476,9,Vendor will submit a credit validation record to be applied to the enterprise billing system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916951,1
+477,9,If a lead is scored to the high range the system will supply the lead data and score to the enterprise system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99291795,1
+478,9,The leads washing functionality will validate all leads received by the web service for valid data,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99194145,1
+479,9,The leads washing functionality will insert all leads captured by the web service.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9937489,1
+480,9,If the leads score falls within the high average score then it will be process by the ARA functionality.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9939004,1
+481,9,If the leads score falls within the medium average then it will be set for manual verification by an Enrollment Coordinator through the eleads system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928733,1
+482,9,If the leads score falls within the low average then it will be returned to the supplying vendor,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99367964,1
+483,9,The leads washing functionality will compile both contact and academic scoring information for a total score.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9933775,1
+484,9,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99383223,1
+485,9,The leads washing functionality will return the lead data supplied to the vendor along with the reason of rejection.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99371874,1
+486,9,The leads washing functionality will have an interface in which lead data parameters can be maintained.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99393,1
+487,9,The leads washing functionality will verify the users authentication and rights to make parameter updates.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9916311,1
+488,9,The leads washing functionality will store any potential lead duplicates returned by the enterprise system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99342394,1
+489,9,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99277157,1
+490,9,The leads washing functionality shall receive a period list of available reps from the enterprise system.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99372673,1
+506,10,The product shall maintain a list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9911048,1
+507,10,The product shall allow a user to identify himself or herself as a player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.992581,1
+508,10, Once a game has been initiated  the product shall make the players assigned to the game unavailable for selection from the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926358,1
+509,10,The product shall allow a user to remove himself or herself from the list of players at any time.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9915236,1
+510,10,The product shall make inactive players unavailable for selection from the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99160963,1
+511,10,The product shall remove players who have been inactive for 24 hours from the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99004585,1
+512,10,The product shall allow a player to initiate a game by selecting another available player from the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930761,1
+513,10, Once a game is initiated  the product shall display a defensive grid to each player,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9933651,1
+514,10, Once a game is initiated  the product shall display an offensive grid to each player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99306434,1
+515,10,The product shall prevent a player from viewing the offensive or defensive grids of the other player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9914253,1
+516,10, Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9928201,1
+517,10,The product shall allow a player to position ships horizontally on their grid.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99366534,1
+518,10,The product shall allow the player to position ships vertically on their grid.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9936237,1
+519,10,The product shall allow the player to position ships diagonally on their grid,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99304247,1
+520,10,The product shall prevent the player from overlapping ships on their grid.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9929189,1
+521,10, When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9931565,1
+522,10, For each turn  the product shall identify one player as offensive status and one player as defensive status.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99140364,1
+523,10, The product shall maintain the status of each player for a turn  either offensive or defensive.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9940612,1
+524,10, At the start of each turn  the product shall notify each player of his or her status.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99331105,1
+525,10, For each turn  the product shall allow the offensive player to define a shot.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926628,1
+526,10, For each shot  the product shall examine the defensive grid of the defensive player to determine whether the shot was a hit or miss.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99287206,1
+527,10, For each shot  the product shall notify the players whether the shot was a hit or miss.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99375653,1
+528,10, For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.993652,1
+529,10, For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9938,1
+530,10, When the hit results in sinking a ship  the product shall notify the players that the ship was sunk.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930483,1
+531,10, When the hit results in sinking a ship  the product shall mark the ship as sunk on the defensive grid of the defensive player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924259,1
+532,10, When the hit results in sinking a ship  the product shall indicate the type of ship sunk on the defensive grid of the defensive player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99304307,1
+533,10, When the hit results in sinking a ship  the product shall mark the ship as sunk on the offensive grid of the offensive player.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9926575,1
+534,10, If the shot was marked as a hit  the product shall allow the offensive player to define a shot.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99273974,1
+535,10, If the shot was marked as a miss  the product shall change the status of the offensive player to defensive,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9925271,1
+536,10, If the shot was marked as a miss  the product shall change the status of the defensive player to offensive,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9924831,1
+537,10,The product shall continue to assign turns until the game is ended.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9907356,1
+538,10, The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player’s ships  which had not been previously marked as sunk.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9922848,1
+539,10,The product shall allow a player to end a game at any time during the game.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99209857,1
+540,10, When a game is ended  the product shall notify the players that the game is ended.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9934324,1
+541,10, The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99264586,1
+542,10, When a game is ended  the product shall allow each player to identify himself or herself as an available player in the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.99355763,1
+543,10, When a game is ended  the product shall allow each player to remove himself or herself from the list of players.,F,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0.9930756,1
